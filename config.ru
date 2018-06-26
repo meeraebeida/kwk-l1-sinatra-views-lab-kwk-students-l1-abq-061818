@@ -1,3 +1,7 @@
 require './config/environment'
 
-run App
+class App < Sinatra::Base
+  get '/' do
+
+  end
+end
